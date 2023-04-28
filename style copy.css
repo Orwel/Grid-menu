@@ -1,0 +1,45 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* First section - Hero */
+
+h1 {
+  font-size: 4rem;
+  opacity: 80%;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  
+}
+
+.hero-image {
+  width: 100%;
+  object-fit: contain;
+
+}
+
+.info {
+  margin-top: 50%;
+  align-self: center;
+}
+
+.info p {
+  font-size: 1.5rem;
+  opacity: 80%;
+}
+
+.info button {
+  background-color: orange;
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+}
